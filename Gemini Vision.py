@@ -9,9 +9,9 @@ import pygame
 import os
 
 # --- CONFIGURATION ---
-API_KEY = "AIzaSyDShYmUbz41iEIB2ye6tuQUVq8siv8_w3M"
-ESP32_IP = "192.168.1.4"
-URL = f"http://192.168.1.4/capture"
+API_KEY = "YOUR API KEY"
+ESP32_IP = "192.168.1.XXX"
+URL = f"http://192.168.1.XXX/capture"
 
 # Voice Selection: "en-US-GuyNeural" (Male) or "en-US-AriaNeural" (Female)
 VOICE = "en-US-GuyNeural" 
@@ -121,4 +121,5 @@ def main():
                 speak("I can't see anything. Check the camera connection.")
 
 if __name__ == "__main__":
+
     main()

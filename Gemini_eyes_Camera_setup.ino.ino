@@ -5,8 +5,8 @@
 // ===========================
 // 1. WI-FI CONFIGURATION
 // ===========================
-const char* ssid = "Yellareddy";         // <--- CHANGE THIS
-const char* password = "reddy123"; // <--- CHANGE THIS
+const char* ssid = "XXXXXXXX";         // <--- CHANGE THIS
+const char* password = "XXXXXXXX"; // <--- CHANGE THIS
 
 // ===========================
 // 2. PIN DEFINITIONS (AI-THINKER Model)
